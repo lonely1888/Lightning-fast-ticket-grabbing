@@ -8,6 +8,16 @@
 - `cookies.txt` 默认为空文件，并已加入 `.gitignore`
 - 日志、调试输出、打包产物不会提交到 GitHub
 
+## 界面预览
+
+| 登录 | 乘客管理 |
+| --- | --- |
+| ![登录界面](docs/screenshots/step1-login.png) | ![乘客管理界面](docs/screenshots/step2-passengers.png) |
+
+| 选票 | 抢票 |
+| --- | --- |
+| ![选票界面](docs/screenshots/step3-selection.png) | ![抢票界面](docs/screenshots/step4-ticketing.png) |
+
 ## 功能概览
 
 - PyQt5 桌面界面，按步骤完成登录、乘客管理、选票和抢票
@@ -45,10 +55,14 @@
 ## 安装依赖
 
 ```bash
-pip install requests schedule loguru pyyaml ddddocr gmssl PyQt5 pyinstaller
+pip install -r requirements.txt
 ```
 
-如果你只运行脚本、不打包桌面程序，`pyinstaller` 可以不装。
+如果你还需要打包桌面程序，可以额外安装：
+
+```bash
+pip install pyinstaller
+```
 
 ## 配置说明
 

@@ -1,0 +1,7 @@
+requests
+schedule
+loguru
+PyYAML
+ddddocr
+gmssl
+PyQt5
