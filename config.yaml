@@ -1,0 +1,42 @@
+query:
+  from_station: "XXX"
+  from_station_name: "出发城市"
+  to_station: "XXX"
+  to_station_name: "目的城市"
+  train_date: "2026-01-01"
+  target_depart_time: ""
+  passenger_count: 1
+  seat_preference:
+    - "二等座"
+    - "一等座"
+passengers: []
+segments:
+  - from_station: "XXX"
+    from_station_name: "出发城市"
+    to_station: "XXX"
+    to_station_name: "目的城市"
+    train_date: "2026-01-01"
+    primary:
+      train_code: ""
+      depart_time: ""
+      arrive_time: ""
+      seat_name: ""
+    backup:
+      train_code: ""
+      depart_time: ""
+      arrive_time: ""
+      seat_name: ""
+selection:
+  primary:
+    train_code: ""
+    depart_time: ""
+    arrive_time: ""
+    seat_name: ""
+  backup:
+    train_code: ""
+    depart_time: ""
+    arrive_time: ""
+    seat_name: ""
+schedule:
+  enabled: true
+  interval_seconds: 4
